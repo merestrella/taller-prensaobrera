@@ -1,0 +1,61 @@
+/* Aca vamos a setear los estilos mas generales */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background: #fff;
+  margin: 0;
+  --rojoprensa: #f44336;
+  --mujer: #8bc34a;
+  --internacionales: #880e4f;
+  --sindicales: #ff9800;
+  --politicas: #e64a19;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.grid-cols-12 {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+.hamb {
+  display: block;
+  height: 20px;
+  width: 35px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hamb span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  border-radius: 10px;
+  background: var(--rojoprensa);
+  transition: width 0.1s ease-in-out;
+}
+
+.hamb .line2 {
+  width: 30px;
+}
+.hamb:hover .line1 {
+  width: 30px;
+  transition: width 0.1s ease-in-out;
+}
+.hamb:hover .line2 {
+  width: 35px;
+  transition: width 0.1s ease-in-out;
+}
+.hamb:hover .line3 {
+  width: 30px;
+  transition: width 0.1s ease-in-out;
+}
+.hidden {
+  display: none;
+}
