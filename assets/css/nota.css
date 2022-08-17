@@ -1,0 +1,97 @@
+.container-nota {
+  display: grid;
+grid-template-columns: repeat(12, 1fr);
+height: 500px;
+gap: 10px;
+}
+
+.container-nota article {
+  grid-column: span 9;
+  background-color: rgb(242, 226, 226);
+
+}
+
+.container-nota aside {
+  grid-column: span 3;
+  background-color: #333;
+}
+
+.container-nota article .header-nota {
+  color: #000;
+}
+
+.container-nota article .header-nota .seccion {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  border-bottom: 1px solid var(--politicas);
+}
+
+.container-nota article .header-nota .seccion h3 {
+  grid-column: span 8;
+  margin: 0;
+  color: var(--politicas);
+  font-size: 30px;
+}
+
+.container-nota article .header-nota .seccion p {
+  grid-column: span 4;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+.container-nota article .header-nota h1 {
+  font-size: 30px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.container-nota article .header-nota .volanta {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+.container-nota article .header-nota .autor {
+  display: flex;
+  justify-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.container-nota article .header-nota .autor .nombre-y-redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-nota article .header-nota .autor .nombre-y-redes .autor-nombre a {
+  display: block;
+  text-decoration: none;
+  color: var(--rojoprensa);
+  margin-bottom: 5px;
+}
+
+.container-nota article .header-nota .autor .redes ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 1px;
+  list-style-type: none;
+}
+
+.container-nota article .header-nota .autor picture {
+  position: relative;
+}
+
+
+
+.container-nota article .content-nota {}
+
+.container-nota article .footer-nota {
+
+}
