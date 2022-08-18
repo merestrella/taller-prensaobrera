@@ -7,7 +7,7 @@ gap: 10px;
 
 .container-nota article {
   grid-column: span 9;
-  background-color: rgb(242, 226, 226);
+  background-color: rgb(255, 255, 255);
 
 }
 
@@ -30,7 +30,7 @@ gap: 10px;
   grid-column: span 8;
   margin: 0;
   color: var(--politicas);
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .container-nota article .header-nota .seccion p {
@@ -44,16 +44,19 @@ gap: 10px;
 }
 
 .container-nota article .header-nota h1 {
-  font-size: 30px;
-  margin: 10px 0;
+  font-size: 36px;
+  margin: 16px 0 8px;
   padding: 0;
+  color: #262626;
 }
 
 .container-nota article .header-nota .volanta {
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
+  font-size: 14px;
+  margin: 0 0 20px;
+  padding: 0 0 4px;
   font-style: italic;
+  color:#525252;
+  border-bottom: 1px solid rgba(212,212,212);
 }
 
 .container-nota article .header-nota .autor {
@@ -61,6 +64,10 @@ gap: 10px;
   justify-items: center;
   gap: 10px;
   margin: 15px 0;
+}
+
+.container-nota article .header-nota .autor img {
+  width: 50px;
 }
 
 .container-nota article .header-nota .autor .nombre-y-redes {
@@ -74,23 +81,24 @@ gap: 10px;
   text-decoration: none;
   color: var(--rojoprensa);
   margin-bottom: 5px;
+  font-size: 16px;
 }
 
 .container-nota article .header-nota .autor .redes ul {
   display: flex;
   padding: 0;
   margin: 0;
-  gap: 1px;
+  gap: 8px;
   list-style-type: none;
 }
 
-.container-nota article .header-nota .autor picture {
-  position: relative;
+.container-nota .header-nota .nombre-y-redes .redes img {
+  width: 15px;
 }
 
+.container-nota article .content-nota {
 
-
-.container-nota article .content-nota {}
+}
 
 .container-nota article .footer-nota {
 
