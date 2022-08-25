@@ -57,5 +57,32 @@ body {
   transition: width 0.1s ease-in-out;
 }
 .hidden {
-  display: none;
+  display: none !important;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+button {
+  background: var(--rojoprensa);
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(240, 100, 100);
+  color: white;
 }

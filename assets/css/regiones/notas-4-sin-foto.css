@@ -8,6 +8,11 @@ section.notas-4-sin-foto article {
   background-color: #fff;
   box-shadow: 0px 0px 15px #00000238;
 }
+
+section.notas-4-sin-foto article.fondoRojo {
+  background-color: red;
+}
+
 section.notas-4-sin-foto article .volanta span {
   font-size: 11px;
   text-transform: uppercase;

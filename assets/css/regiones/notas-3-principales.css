@@ -70,3 +70,16 @@ section.notas-3-principales article .data h3 {
 section.notas-3-principales article .data p {
   margin: 0 0 10px 0;
 }
+
+section.notas-3-principales article.politicas a:link {
+  text-decoration: none;
+}
+
+section.notas-3-principales article.politicas a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+section.notas-3-principales article.politicas  a:hover {
+  text-decoration: none;
+}
