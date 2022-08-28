@@ -34,6 +34,6 @@ boton.addEventListener("click", () => {
   principal.classList.toggle("hidden");
 });
 
-boton1.addEventListener("click", () =>{
+boton1.addEventListener("click", () => {
   banner.classList.toggle("hidden");
 })
